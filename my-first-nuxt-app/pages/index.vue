@@ -1,31 +1,9 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        my-first-nuxt-app
-      </h1>
-      <h2 class="subtitle">
-        My supreme Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <section class="container">
+    <!-- we dont use <a> </a> because it will send new request to server -->
+    <!-- <a href="/users">Users</a>  -->
+    <nuxt-link to="/users">Users</nuxt-link>
+  </section>
 </template>
 
 <script>
