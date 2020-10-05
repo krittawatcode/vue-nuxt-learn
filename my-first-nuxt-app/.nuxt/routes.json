@@ -1,0 +1,16 @@
+[
+  {
+    "name": "users",
+    "path": "/users",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/users.vue",
+    "chunkName": "pages/users",
+    "_name": "_fdfdb428"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3b974bb6"
+  }
+]
