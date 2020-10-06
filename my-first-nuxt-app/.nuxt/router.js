@@ -4,10 +4,11 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _594a509a = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
+const _fdfdb428 = () => interopDefault(import('../pages/users.vue' /* webpackChunkName: "pages/users" */))
 const _1adc8b6f = () => interopDefault(import('../pages/users/index.vue' /* webpackChunkName: "pages/users/index" */))
-const _a92d2d84 = () => interopDefault(import('../pages/products/_pid/index.vue' /* webpackChunkName: "pages/products/_pid/index" */))
 const _709456da = () => interopDefault(import('../pages/users/_id/index.vue' /* webpackChunkName: "pages/users/_id/index" */))
 const _3948fd2e = () => interopDefault(import('../pages/users/_id/moreDetail.vue' /* webpackChunkName: "pages/users/_id/moreDetail" */))
+const _a92d2d84 = () => interopDefault(import('../pages/products/_pid/index.vue' /* webpackChunkName: "pages/products/_pid/index" */))
 const _3b974bb6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -32,20 +33,24 @@ export const routerOptions = {
     name: "products"
   }, {
     path: "/users",
-    component: _1adc8b6f,
-    name: "users"
+    component: _fdfdb428,
+    children: [{
+      path: "",
+      component: _1adc8b6f,
+      name: "users"
+    }, {
+      path: ":id",
+      component: _709456da,
+      name: "users-id"
+    }, {
+      path: ":id/moreDetail",
+      component: _3948fd2e,
+      name: "users-id-moreDetail"
+    }]
   }, {
     path: "/products/:pid",
     component: _a92d2d84,
     name: "products-pid"
-  }, {
-    path: "/users/:id",
-    component: _709456da,
-    name: "users-id"
-  }, {
-    path: "/users/:id/moreDetail",
-    component: _3948fd2e,
-    name: "users-id-moreDetail"
   }, {
     path: "/",
     component: _3b974bb6,
