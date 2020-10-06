@@ -1,30 +1,38 @@
 [
   {
+    "name": "products",
+    "path": "/products",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/products/index.vue",
+    "chunkName": "pages/products/index"
+  },
+  {
     "name": "users",
     "path": "/users",
     "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/users/index.vue",
-    "chunkName": "pages/users/index",
-    "_name": "_1adc8b6f"
+    "chunkName": "pages/users/index"
+  },
+  {
+    "name": "products-pid",
+    "path": "/products/:pid",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/products/_pid/index.vue",
+    "chunkName": "pages/products/_pid/index"
   },
   {
     "name": "users-id",
     "path": "/users/:id",
     "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/users/_id/index.vue",
-    "chunkName": "pages/users/_id/index",
-    "_name": "_709456da"
+    "chunkName": "pages/users/_id/index"
   },
   {
     "name": "users-id-moreDetail",
     "path": "/users/:id/moreDetail",
     "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/users/_id/moreDetail.vue",
-    "chunkName": "pages/users/_id/moreDetail",
-    "_name": "_3948fd2e"
+    "chunkName": "pages/users/_id/moreDetail"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-nuxt-app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3b974bb6"
+    "chunkName": "pages/index"
   }
 ]

@@ -3,7 +3,9 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _594a509a = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
 const _1adc8b6f = () => interopDefault(import('../pages/users/index.vue' /* webpackChunkName: "pages/users/index" */))
+const _a92d2d84 = () => interopDefault(import('../pages/products/_pid/index.vue' /* webpackChunkName: "pages/products/_pid/index" */))
 const _709456da = () => interopDefault(import('../pages/users/_id/index.vue' /* webpackChunkName: "pages/users/_id/index" */))
 const _3948fd2e = () => interopDefault(import('../pages/users/_id/moreDetail.vue' /* webpackChunkName: "pages/users/_id/moreDetail" */))
 const _3b974bb6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -25,9 +27,17 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/products",
+    component: _594a509a,
+    name: "products"
+  }, {
     path: "/users",
     component: _1adc8b6f,
     name: "users"
+  }, {
+    path: "/products/:pid",
+    component: _a92d2d84,
+    name: "products-pid"
   }, {
     path: "/users/:id",
     component: _709456da,
