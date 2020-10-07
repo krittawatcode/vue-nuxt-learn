@@ -5,4 +5,7 @@
 ### Have a good day, Kriwis
 
 ### for create new nuxt app
+##### first 
+npm install -g create-nuxt-app
+##### second
 run this command -> create-nuxt-app <project-name>
