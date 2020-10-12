@@ -7,11 +7,39 @@
     "_name": "_5cf1973f"
   },
   {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_69f72c81"
+  },
+  {
     "name": "posts",
     "path": "/posts",
     "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/posts/index.vue",
     "chunkName": "pages/posts/index",
     "_name": "_3685d005"
+  },
+  {
+    "name": "admin-auth",
+    "path": "/admin/auth",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/auth/index.vue",
+    "chunkName": "pages/admin/auth/index",
+    "_name": "_bd3101e8"
+  },
+  {
+    "name": "admin-new-post",
+    "path": "/admin/new-post",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/new-post/index.vue",
+    "chunkName": "pages/admin/new-post/index",
+    "_name": "_7085b15e"
+  },
+  {
+    "name": "admin-postId",
+    "path": "/admin/:postId",
+    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/_postId/index.vue",
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_1c2a1ea8"
   },
   {
     "name": "posts-id",
