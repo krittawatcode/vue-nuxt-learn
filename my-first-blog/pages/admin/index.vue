@@ -16,7 +16,12 @@ import PostList from '@/components/Posts/PostList'
 export default {
   components: {
     PostList
-  }
+  },
+  // data () {
+  //   return {
+  //     isAdmin : true
+  //   }
+  // }
 }
 </script>
 

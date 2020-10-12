@@ -2,57 +2,57 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/about/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\about\\\\index.vue",
     "chunkName": "pages/about/index",
-    "_name": "_5cf1973f"
+    "_name": "_ee8ab3c6"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\admin\\\\index.vue",
     "chunkName": "pages/admin/index",
-    "_name": "_69f72c81"
+    "_name": "_1c67b91b"
   },
   {
     "name": "posts",
     "path": "/posts",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/posts/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\posts\\\\index.vue",
     "chunkName": "pages/posts/index",
-    "_name": "_3685d005"
+    "_name": "_3ca4f3d2"
   },
   {
     "name": "admin-auth",
     "path": "/admin/auth",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/auth/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\admin\\\\auth\\\\index.vue",
     "chunkName": "pages/admin/auth/index",
-    "_name": "_bd3101e8"
+    "_name": "_016d9e33"
   },
   {
     "name": "admin-new-post",
     "path": "/admin/new-post",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/new-post/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\admin\\\\new-post\\\\index.vue",
     "chunkName": "pages/admin/new-post/index",
-    "_name": "_7085b15e"
+    "_name": "_538a3ce4"
   },
   {
     "name": "admin-postId",
     "path": "/admin/:postId",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/admin/_postId/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\admin\\\\_postId\\\\index.vue",
     "chunkName": "pages/admin/_postId/index",
-    "_name": "_1c2a1ea8"
+    "_name": "_119c301f"
   },
   {
     "name": "posts-id",
     "path": "/posts/:id",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/posts/_id/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\posts\\\\_id\\\\index.vue",
     "chunkName": "pages/posts/_id/index",
-    "_name": "_563d6070"
+    "_name": "_1824053a"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/krittawat/Learning/nuxt/vue-nuxt-learn/my-first-blog/pages/index.vue",
+    "component": "D:\\\\Learn\\\\Nuxt\\\\vue-nuxt-learn\\\\my-first-blog\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_2b372881"
+    "_name": "_7086518a"
   }
 ]

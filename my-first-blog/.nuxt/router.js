@@ -3,14 +3,14 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5cf1973f = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
-const _69f72c81 = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _3685d005 = () => interopDefault(import('../pages/posts/index.vue' /* webpackChunkName: "pages/posts/index" */))
-const _bd3101e8 = () => interopDefault(import('../pages/admin/auth/index.vue' /* webpackChunkName: "pages/admin/auth/index" */))
-const _7085b15e = () => interopDefault(import('../pages/admin/new-post/index.vue' /* webpackChunkName: "pages/admin/new-post/index" */))
-const _1c2a1ea8 = () => interopDefault(import('../pages/admin/_postId/index.vue' /* webpackChunkName: "pages/admin/_postId/index" */))
-const _563d6070 = () => interopDefault(import('../pages/posts/_id/index.vue' /* webpackChunkName: "pages/posts/_id/index" */))
-const _2b372881 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _ee8ab3c6 = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages/about/index" */))
+const _1c67b91b = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _3ca4f3d2 = () => interopDefault(import('..\\pages\\posts\\index.vue' /* webpackChunkName: "pages/posts/index" */))
+const _016d9e33 = () => interopDefault(import('..\\pages\\admin\\auth\\index.vue' /* webpackChunkName: "pages/admin/auth/index" */))
+const _538a3ce4 = () => interopDefault(import('..\\pages\\admin\\new-post\\index.vue' /* webpackChunkName: "pages/admin/new-post/index" */))
+const _119c301f = () => interopDefault(import('..\\pages\\admin\\_postId\\index.vue' /* webpackChunkName: "pages/admin/_postId/index" */))
+const _1824053a = () => interopDefault(import('..\\pages\\posts\\_id\\index.vue' /* webpackChunkName: "pages/posts/_id/index" */))
+const _7086518a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -30,35 +30,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _5cf1973f,
+    component: _ee8ab3c6,
     name: "about"
   }, {
     path: "/admin",
-    component: _69f72c81,
+    component: _1c67b91b,
     name: "admin"
   }, {
     path: "/posts",
-    component: _3685d005,
+    component: _3ca4f3d2,
     name: "posts"
   }, {
     path: "/admin/auth",
-    component: _bd3101e8,
+    component: _016d9e33,
     name: "admin-auth"
   }, {
     path: "/admin/new-post",
-    component: _7085b15e,
+    component: _538a3ce4,
     name: "admin-new-post"
   }, {
     path: "/admin/:postId",
-    component: _1c2a1ea8,
+    component: _119c301f,
     name: "admin-postId"
   }, {
     path: "/posts/:id",
-    component: _563d6070,
+    component: _1824053a,
     name: "posts-id"
   }, {
     path: "/",
-    component: _2b372881,
+    component: _7086518a,
     name: "index"
   }],
 
